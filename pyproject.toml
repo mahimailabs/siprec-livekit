@@ -1,0 +1,14 @@
+[project]
+name = "siprec-livekit"
+version = "0.1.0"
+description = "A minimal SIPREC recording server that publishes each side of a call into a LiveKit room."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "livekit==1.2.0",
+    "livekit-api==1.2.2",
+]
+
+[project.optional-dependencies]
+test = ["numpy==2.3.4"]
